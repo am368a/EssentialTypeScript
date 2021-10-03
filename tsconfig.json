@@ -1,9 +1,5 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "declaration": true,
-        "module": "system",
-        "sourceMap": true,
-        "experimentalDecorators": true
-    }
+  "compilerOptions": {
+    "target": "ES5"
+  }
 }
