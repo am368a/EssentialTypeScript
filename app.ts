@@ -1,14 +1,9 @@
-var container = document.getElementById('container');
+var array = [
+    "Pick up drycleaning",
+    "Clean Batcave",
+    "Save Gotham"
+];
 
-var todo = {
-    id: 123,
-    name: 'Pick up drycleaning',
-    completed: true
+for (var value of array) {
+    console.log(value);
 }
-
-container.innerHTML = `
-<div todo='${todo.id}' class="list-group-item}">
-    <i class="${ todo.completed ? "" : "hidden" } text-success glyphicon glyphicon-ok"></i>
-    <span class="name">${todo.name}</span>
-</div>
-`
